@@ -3,14 +3,26 @@
 // all TypeScript weakness flags.
 // : number
 const reviewTotalDisplay = document.querySelector("#reviews");
+const returningUserDisplay = document.querySelector("#returning-user");
+ const userNameDisplay = document.querySelector("#user");
+ const propertyContainer = document.querySelector('.properties')
+ 
+ let isOpen: boolean;
 
-const reviews = [
+const reviews : [
   {
-    name: "Sheia",
-    stars: 5,
-    loyaltyUser: true,
-    date: "01-04-2021",
-  },
+    name: "string",
+    stars: 'number';
+    loyaltyUser: boolean;
+    date: "string";
+  }
+    {
+      name: "Sheia",
+      stars: 5,
+      loyaltyUser: true,
+      date: "01-04-2021",
+    },
+
   {
     name: "Andrzej",
     stars: 3,
